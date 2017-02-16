@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <form name="forma1"  action="https://formspree.io/lozynska.anna@gmail.com"  method="POST">
+        <ol>
+        <li>Ваше ставлення до соцмереж:<br>
+           <input type="radio" name="stavl" checked> Позитивне<br>
+           <input type="radio" name="stavl" >Негативне<br>
+           <input type="radio" name="stavl">Нейтральне<br>
+        </li>
+        <li> В яких соцмережах ви зареєстровані?<br>
+           <input type="checkbox" name="sotsmer1" checked>Facebook<br>
+           <input type="checkbox" name="sotsmer2" >Twitter<br>
+           <input type="checkbox" name="sotsmer3" >Однокласники<br>
+           <input type="checkbox" name="sotsmer4" >Не зареєстровані<br>
+           </li>
+        <li>Чи користуєтесь електронною поштою?:<br>
+           <input type="radio" name="mail" checked>Так<br>
+           <input type="radio" name="mail" >Ні<br>
+           <input type="radio" name="mail">Іноді<br>
+        </li>
+        <li>Скільки часу щодня ви проводите в соцмережах?:<br>
+           <input type="radio" name="time" checked>до 1 годк<br>
+           <input type="radio" name="time" >1-2 год<br>
+           <input type="radio" name="time">Більше 2 год<br>
+        </li>
+        <li>Що корисного є в соцмережах для навчання?:<br>
+           <input type="checkbox" name="useful" checked>Передавання інформації<br>
+           <input type="checkbox" name="useful" >Допомога колег<br>
+           <input type="checkbox" name="useful" >Можливість спілкування<br>
+           <input type="checkbox" name="useful" >Нічого<br>
+           
+        </li>  
+        <li>Коротко опишіть ваше ставлення до соцмереж:<br>
+          <textarea cols="50" rows="7" ></textarea>
+        </li>
+		</ol>
+           <p> Персональні дані:<p><br>
+            <label>
+           Ваше ім'я:<br>
+              <input type="text" name="name1" required
+           placeholder="Anna"
+           title="Anna">
+           </label><br>
+            <label>
+            Ваш email:<br>
+             <input type="email" name="client-email" required>
+             <br>
+           </label>
+         
+        <input type="submit"><br>
+        <input type="reset">
+                                         
+       
+</form>
+</body>
+</html>
